@@ -72,3 +72,15 @@ Ensure you have **Python 3.x** installed along with the required dependencies.
 ```bash
 pip install pandas numpy matplotlib sklearn
 
+### 🔧 Running the Project:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/car-price-regression.git
+2. Navigate to the project folder:
+  ```bash
+  cd car-price-regression
+3. Open and run the Jupyter Notebook:
+  ```bash
+jupyter notebook "car_regression.ipynb"
+
+
