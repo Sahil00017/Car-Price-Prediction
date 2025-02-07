@@ -38,7 +38,7 @@ The dataset contains **28,143 car records** with **8 key attributes**:
 ## 📈 Exploratory Data Analysis (EDA)
 Key insights obtained:
 - **Price Distributions:** Luxury brands and premium versions tend to have higher MSRPs.
-- **Visualization Techniques:** Used **histograms, scatter plots, and box plots** to understand data trends.
+- **Visualization Techniques:** Used **histograms and box plots** to understand data trends.
 
 ---
 
@@ -79,12 +79,12 @@ pip install pandas numpy matplotlib sklearn
    ```
 3. Navigate to the project folder:
    ```bash
-  cd car-price-regression
-  ```
+   cd car-price-regression
+   ```
 3. Open and run the Jupyter Notebook:
-  ```bash
-  jupyter notebook "car_regression.ipynb"
-  ```
+   ```bash
+   jupyter notebook "car_regression.ipynb"
+   ```
 4. Deactivate the virtual environment when you're done:
    ```bash
    deactivate
