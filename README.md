@@ -71,16 +71,32 @@ Ensure you have **Python 3.x** installed along with the required dependencies.
 ### 📦 Install Required Libraries:
 ```bash
 pip install pandas numpy matplotlib sklearn
-
+```
 ### 🔧 Running the Project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/car-price-regression.git
-2. Navigate to the project folder:
-  ```bash
+   ```
+3. Navigate to the project folder:
+   ```bash
   cd car-price-regression
+  ```
 3. Open and run the Jupyter Notebook:
   ```bash
-jupyter notebook "car_regression.ipynb"
+  jupyter notebook "car_regression.ipynb"
+  ```
+4. Deactivate the virtual environment when you're done:
+   ```bash
+   deactivate
+   ```
+## 📌 Key Takeaways:
+- **Polynomial regression was highly unstable**, leading to poor generalization.
+- **Lasso and Ridge regression provided the best trade-off between bias and variance.**
+- **Elastic Net performed poorly**, indicating that a balance of L1 and L2 penalties was not effective.
+- **IQR Winsorization helped in handling outliers**, improving model reliability.
+## 📜 License
+This project is licensed under the **MIT License**.
+
+Feel free to copy this and use it directly in your GitHub repository! Let me know if you need any additional adjustments. 🚀
 
 
