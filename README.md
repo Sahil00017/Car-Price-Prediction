@@ -75,7 +75,7 @@ pip install pandas numpy matplotlib sklearn
 ### 🔧 Running the Project:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/car-price-regression.git
+   git clone https://github.com/Sahil00017/Car-Price-Prediction-Regression
    ```
 3. Navigate to the project folder:
    ```bash
@@ -83,7 +83,7 @@ pip install pandas numpy matplotlib sklearn
    ```
 3. Open and run the Jupyter Notebook:
    ```bash
-   jupyter notebook "car_regression.ipynb"
+   jupyter notebook "Car_Price_Prediction.ipynb"
    ```
 4. Deactivate the virtual environment when you're done:
    ```bash
